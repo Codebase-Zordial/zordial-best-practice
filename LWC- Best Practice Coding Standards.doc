@@ -1,0 +1,514 @@
+Date: Thu, 12 Jan 2023 07:54:46 +0000 (UTC)
+Message-ID: <709163435.65.1673510086362@1971b954e3e2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_64_3546911.1673510086362"
+
+------=_Part_64_3546911.1673510086362
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Best Practice  Coding Standards - LWC</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Best Practice  Coding Standards - LWC</h1>
+    <div class=3D"Section1">
+        <ol start=3D"1">
+<li><p><strong><span style=3D"color: rgb(76,154,255);"><u>Naming convention=
+&nbsp;</u></span></strong></p>
+<ol start=3D"1">
+<li><p><u>LWC component Bundle&nbsp;</u><br>Html file : Use camel case to n=
+ame your component and use kebab-case to reference a component in the marku=
+p</p><p>JavaScript File : Java Script Class name should be in PascalCase</p=
+><p>Bundle Component : use camelCase.&nbsp;</p></li>
+<li><p><u>Custom Event Names</u></p></li>
+</ol></li>
+</ol>
+<p style=3D"margin-left: 60.0px;">Avoid prefixing custom event names with =
+=E2=80=98on=E2=80=99. The event handler names start with on. So, adding an =
+additional =E2=80=98on=E2=80=99 at the start of the event name would create=
+ confusion.</p>
+<p style=3D"margin-left: 30.0px;">Use below:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">const c=
+ustomEvt =3D new CustomEvent('select');</pre>=20
+</div>
+</div>
+<p><strong><span style=3D"color: rgb(76,154,255);"><u>2. Modular Components=
+ Approach:</u></span></strong></p>
+<p>a) Create and use reusable Lightning Web Components</p>
+<p>b) Component Composition</p>
+<p style=3D"margin-left: 30.0px;">Components are the building blocks of a p=
+age. We should consider the following point before dividing the components =
+in LWC</p>
+<p style=3D"margin-left: 30.0px;">Level 1: Based on its functionality</p>
+<p style=3D"margin-left: 30.0px;">Level 2: Based on its reusability&nbsp;</=
+p>
+<p style=3D"margin-left: 30.0px;">When there is need to pass lots of inputs=
+ to the component, consider passing objects as parameters instead of having=
+ multiple attributes.</p>
+<p style=3D"margin-left: 30.0px;">c) Create multiple child components for m=
+ain component to increase the readability/debugging/maintainability.</p>
+<p></p>
+<p><strong><span style=3D"color: rgb(76,154,255);"><u>3. Commenting: </u></=
+span></strong></p>
+<ul>
+<li><p>All methods/functions should be properly commented. The comment shou=
+ld describe what exactly the function is doing, what are the input paramete=
+rs and returning values.</p></li>
+<li><p>Do not skip comments to make file smaller.</p></li>
+</ul>
+<p></p>
+<p>4. Multiple js files/lwc components should be used instead of a single b=
+ig component or complex functionality</p>
+<p>5. Variable declaration should be at same section. It should not be scat=
+tered all over the org.</p>
+<p>6. import statements should not be too much in the js file</p>
+<p>7. There should be no repetition of the code. If any exists, then move t=
+he code to new function/method and use the function.</p>
+<p><strong><span style=3D"color: rgb(76,154,255);"><u>8. Indentation</u></s=
+pan></strong></p>
+<p>There should be proper indentation of the code having the spaces/formatt=
+ing/line breaks as needed to increase the readability.</p>
+<p>9. Extract utility methods outside your LWC components as LWC components=
+ should only deal with UI-related logic.</p>
+<p><strong><span style=3D"color: rgb(76,154,255);"><u>10. Include error han=
+dling in the code logic</u></span></strong></p>
+<p>Include error handling in the code logic: We should consider the error s=
+cenario as well and notify the user with a user friendly error message. For=
+ this, we can make use of toast message to show high level detail to user o=
+n what went wrong.</p>
+<p>11. Avoid using hardcoding, use custom labels.</p>
+<p><strong>Sample Code: </strong></p>
+<ol start=3D"1">
+<li><p>lwc_Standards.html</p></li>
+<li><p>lwc_Standards.js</p></li>
+<li><p>util.js</p></li>
+</ol>
+<ol start=3D"1">
+<li><p><strong>lwc_Standards.html</strong></p></li>
+</ol>
+<div class=3D"table-wrap">
+<table data-layout=3D"wide" data-local-id=3D"ffde357e-b3ab-4d62-b2c7-9945fd=
+da0d07" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 960.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">&lt;tem=
+plate&gt;
+=09&lt;!--Create a responsive layout  --&gt;
+&lt;div class=3D"c-container"&gt;
+=09
+=09&lt;!--Responsive layout details of what UI it is displaying.
+=09Comments START --&gt;
+=09&lt;lightning-layout multiple-rows=3D"true"&gt;
+=09=09
+=09=09&lt;lightning-layout-item padding=3D"around-small" size=3D"12"&gt;
+=09=09=09&lt;div class=3D"page-section page-header"&gt;
+=09=09=09=09&lt;h2&gt;&lt;strong style=3D"color: #ff8000;"&gt;Header Sectio=
+n&lt;/strong&gt;&lt;/h2&gt;
+=09=09=09&lt;/div&gt;
+=09=09&lt;/lightning-layout-item&gt;
+=09=09
+=09=09&lt;lightning-layout-item padding=3D"around-small" size=3D"12"&gt;
+=09=09=09&lt;lightning-layout&gt;
+=09=09=09=09&lt;lightning-layout-item padding=3D"around-small" size=3D"3"&g=
+t;
+=09=09=09=09=09&lt;div class=3D"page-section page-right"&gt;
+=09=09=09=09=09=09&lt;h2&gt;&lt;strong style=3D"color: #ff8000;"&gt;Left Si=
+debar&lt;/strong&gt;&lt;/h2&gt;
+=09=09=09=09=09=09&lt;p&gt; &lt;/p&gt;
+=09=09=09=09=09&lt;/div&gt;
+=09=09=09=09&lt;/lightning-layout-item&gt;
+=09=09=09=09&lt;lightning-layout-item padding=3D"around-small" size=3D"6"&g=
+t;
+=09=09=09=09=09&lt;div class=3D"page-section page-main"&gt;
+=09=09=09=09=09=09&lt;h2&gt;&lt;strong style=3D"color: #ff8000;"&gt;Main Co=
+ntainer&lt;/strong&gt;&lt;/h2&gt;
+=09=09=09=09=09=09&lt;p&gt;&lt;/p&gt;
+=09=09=09=09=09=09
+=09=09=09=09=09&lt;/div&gt;
+=09=09=09=09&lt;/lightning-layout-item&gt;
+=09=09=09=09&lt;lightning-layout-item padding=3D"around-small" size=3D"3"&g=
+t;
+=09=09=09=09=09&lt;div class=3D"page-section page-right"&gt;
+=09=09=09=09=09  &lt;h2&gt;&lt;strong style=3D"color: #ff8000;"&gt;Right Si=
+debar&lt;/strong&gt;&lt;/h2&gt;                       =20
+=09=09=09=09=09
+=09=09=09=09=09&lt;div class=3D"slds-nav-vertical__section"&gt; &lt;/div&gt=
+;
+=09=09=09=09=09&lt;/div&gt;
+=09=09=09=09&lt;/lightning-layout-item&gt;
+=09=09=09&lt;/lightning-layout&gt;
+=09=09&lt;/lightning-layout-item&gt;
+=09=09&lt;lightning-layout-item flexibility=3D"auto" padding=3D"around-smal=
+l" size=3D"12"&gt;
+=09=09=09&lt;div class=3D"page-footer page-section"&gt;
+=09=09=09=09&lt;h2&gt;&lt;strong style=3D"color: #ff8000;"&gt;Footer&lt;/st=
+rong&gt;&lt;/h2&gt;
+=09=09=09&lt;/div&gt;
+=09=09&lt;/lightning-layout-item&gt;
+=09&lt;/lightning-layout&gt;
+=09&lt;!--Responsive layout Comments END--&gt;
+&lt;/div&gt;
+
+
+&lt;/template&gt;</pre>=20
+</div>
+</div></th>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+<p><strong>2. lwc_Standards.js</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// impo=
+rt Standard Library=20
+import { LightningElement } from 'lwc';
+// import show toast message=20
+import { CurrentPageReference } from 'lightning/navigation';
+// import navigation=20
+import { NavigationMixin } from 'lightning/navigation';
+// import Static Resources=20
+import myResource from '@salesforce/resourceUrl/namespace__resourceReferenc=
+e';
+// import Custom Labels=20
+import HomePageLabel from '@salesforce/label/c.HomePageNewsLabel';
+// import apex class=20
+import apexMethod from '@salesforce/apex/Namespace.Classname.apexMethod';
+// import util module=20
+import {className,MethodName,VariableName,CustomLabel} from 'c/util';
+
+export default class LwcPageLayout extends NavigationMixin(LightningElement=
+) {
+   =20
+=09// declare and initialize  static resources variable value=20
+=09 const img =3D myResource;
+=09// declare and initialization custom variable name=20
+=09 clabel =3D clabel;
+=09// declare Global variable=20
+=09@api name;
+=09// declare boolean variable
+=09flag =3Dtrue;
+=09// declare array=20
+=09arrName =3D[];
+=09// declare json object=20
+=09jsonList =3D{};
+=09// declare variable with initialization=20
+=09x =3D10;
+=09// declare variable without initializtion=20
+=09prodName;
+=09
+=09// wire method=20
+=09@wire(CurrentPageReference) ageRef;=09
+=09
+=09// connected callback for default value initialization =09
+=09connectedCallback(){
+=09=09// code here=20
+=09}
+=09
+=09// renderedCallback for  re-rendered when the value changes
+=09renderedCallback(){
+=09=09// code here=20
+=09}
+=09
+=09// define custom methods=20
+=09display(){
+=09=09//code here=20
+=09}
+=09
+}</pre>=20
+</div>
+</div>
+<p><strong>3. util.js</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">// impo=
+rt Standard Library=20
+// import Static Resources=20
+import myResource from '@salesforce/resourceUrl/namespace__resourceReferenc=
+e';
+// import Custom Labels=20
+import HomePageLabel from '@salesforce/label/c.HomePageNewsLabel';
+// import apex class=20
+import apexMethod from '@salesforce/apex/Namespace.Classname.apexMethod';
+
+// variable declaration
+=09name;
+=09listOfContact =3D[];
+=09
+// define custom labels=20
+=09clabel=3D'';
+
+// declare a class inside the class and define variable and methods.
+class LwcPageLayout {   =20
+=09
+=09// declare boolean variable
+=09flag =3Dtrue;
+=09// declare array=20
+=09arrName =3D[];
+=09// declare json object=20
+=09jsonList =3D{};
+=09// declare variable with initialization=20
+=09x =3D10;
+=09// declare variable without initializtion=20
+=09prodName;=09
+=09
+=09
+=09// define custom methods=20
+=09display(){
+=09=09//code here=20
+}
+=09
+// define custom method=20
+show(){
+=09// code here=20
+}
+
+// all name define inside the export which used any where with the help of =
+import keyword
+
+export{
+=09name,
+=09listOfContact,
+=09clabel,
+=09LwcPageLayout,
+=09show,
+}</pre>=20
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_64_3546911.1673510086362--
