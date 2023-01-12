@@ -1,0 +1,49 @@
+<template>
+	<!--Create a responsive layout  -->
+<div class="c-container">
+    
+	<!--Responsive layout details of what UI it is displaying.
+	Comments START -->
+	<lightning-layout multiple-rows="true">
+		
+        <lightning-layout-item padding="around-small" size="12">
+            <div class="page-section page-header">
+                <h2><strong style="color: #ff8000;">Header Section</strong></h2>
+            </div>
+        </lightning-layout-item>
+		
+        <lightning-layout-item padding="around-small" size="12">
+            <lightning-layout>
+                <lightning-layout-item padding="around-small" size="3">
+                    <div class="page-section page-right">
+                        <h2><strong style="color: #ff8000;">Left Sidebar</strong></h2>
+                        <p> </p>
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" size="6">
+                    <div class="page-section page-main">
+                        <h2><strong style="color: #ff8000;">Main Container</strong></h2>
+                        <p></p>
+                        
+                    </div>
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small" size="3">
+                    <div class="page-section page-right">
+                      <h2><strong style="color: #ff8000;">Right Sidebar</strong></h2>                        
+                    
+                    <div class="slds-nav-vertical__section"> </div>
+                    </div>
+                </lightning-layout-item>
+            </lightning-layout>
+        </lightning-layout-item>
+        <lightning-layout-item flexibility="auto" padding="around-small" size="12">
+            <div class="page-footer page-section">
+                <h2><strong style="color: #ff8000;">Footer</strong></h2>
+            </div>
+        </lightning-layout-item>
+    </lightning-layout>
+	<!--Responsive layout Comments END-->
+</div>
+
+
+</template>
